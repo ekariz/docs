@@ -10,7 +10,7 @@ Some more technical details to Contabo's S3 Private Networking feature available
 
 Contabo's Private Networking feature is build up on additional network connections only interconnected within one single data center. Different physical servers hosting the VPS/VDS are interconnected by Switches. This way we increases the performance for private networking to a maximum. These connections are not shared with the normal (internet) uplink.
 
-We are using scope links (Linux terminology) bascially meaning that the traffic of private networks are not routed and thus no gateway is required.
+We are using scope links (Linux terminology) basically meaning that the traffic of private networks are not routed and thus no gateway is required.
 
 Please be aware that the physical connections for Private Networking are shared resources.
 
@@ -19,7 +19,7 @@ Please be aware that the physical connections for Private Networking are shared 
 In the following limitations which might not be aparent are described:
 
 * There are no bandwidth guarantees in a private network as it is a shared resource.
-* Excpect the bandwidht to be multiple times faster than the uplink of your Cloud VPS/VDS.
+* Excpect the bandwidth to be multiple times faster than the uplink of your Cloud VPS/VDS.
 * Round trip times (latency) will be significantly better. Here an example ping:
   ```sh
   ping 10.0.16.2
